@@ -8,22 +8,21 @@
     align-items: center;
 }
 .user-component__avatar{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
     margin-right: 20px;
-
 }
 
 .user-component__title{
     font-weight: 600;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .user-component__subtitle{
-    font-size: 17px;
-    margin-top: 8px;
-    color: rgba(0,0,0,0.5);
+    font-size: 14px;
+    margin-top: 14px;
+    color: white;
 }
 
 .user-component__avatar--xl{
@@ -32,21 +31,23 @@
 }
 
 .user-component__avatar--sm{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 25px;
 }
 .user-component__title--not-bold{
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.user-component__column:last-child{
-    color: rgba(0,0,0,0.4);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
 .user-component__time{
     margin-bottom: 10px;
     display: block;
+}
+
+
+.recommended-list{
+    margin-bottom: 20px;
+}
+.meme-list{
+    margin-top: 50px;
 }

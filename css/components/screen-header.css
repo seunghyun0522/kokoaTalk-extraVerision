@@ -7,11 +7,13 @@
 }
 .screen-header__title{
     font-size: 32px;
+    color: var(--green);
     font-weight: 600;
 }
 
 .screen-header__icons span{
     margin-left: 25px;
+    color: white;
 }
 
 .friends-screen{
@@ -22,7 +24,7 @@
     position: relative;
 }
 .extra-icon{
-    background-color: tomato;
+    background-color: var(--green);
     width: 8px;
     height: 8px;
     border-radius: 4px;

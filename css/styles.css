@@ -21,8 +21,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    color: #2e363e;
+    color: white;
+    background-color: black;
     height: 1000vh;
+    width: 500px;
 }
 
 .main-screen{

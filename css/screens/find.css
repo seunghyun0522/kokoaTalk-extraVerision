@@ -1,26 +1,43 @@
 
-.recommended-friends{
-    margin: 25px 0px;
-    padding: 25px 0px;
-    border-top: var(--main-border);
-    border-bottom: var(--main-border);
-}
-.recommended-friends__title{
-    font-size: 14px;
-    color: var(--grey-color);
-}
-.recommended-friends span{
-    margin: 100px 0px;
-    display: block;
-    font-size: 18px;
-    text-align: center;
-    color: var(--grey-color);
-}
 .open-chat__header{
     display: flex;
     justify-content: space-between;
-    opacity: 0.8;
+
     margin-bottom: 25px;
+}
+.open-chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:20px}
+
+.open-chat__header h4{
+    color: var(--green);
+}
+.open-chat__column{
+    display: flex;
+    flex-direction: column;
+}
+.open-chat__column .open-post__hashtags{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.open-post__hashtags{
+    margin-bottom: 6px;
+}
+.open-post__column .open-post__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.open-chat:nth-child(1){
+    margin-top: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .open-chat__header span{
@@ -33,7 +50,7 @@
 }
 .open-post__title{
     font-weight: 600;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
 }
 .open-post__hashtags{
     text-transform: uppercase; /*대문자로 바꿔줌*/
@@ -42,6 +59,7 @@
 .open-post__members{
         display: flex;
         align-items: center;
+        justify-content: center;
         margin-top: 7px;
 }
 .open-post__members img{
@@ -58,14 +76,14 @@
     width: 1.5px;
     height: 15px;
     margin: 0 5px;
-    background-color: var(--grey-color);
+    background-color: var(--green);
 }
 .open-post__member-status{
     color: #ffb0e0;
 }
 .open-post__photo img{
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 .open-post__photo{
@@ -74,25 +92,27 @@
 .open-post__heart-count{
     background-color: rgb(0, 0, 0,0.5);
     color: white;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 14px;
     display: flex;
     align-items: center;
     position: absolute;
     bottom: 10px;
     right: 10px;
 }
+
 .open-post__heart-count span{
     margin-left: 3px;
 }
+
 @keyframes heartBeat {
     0%{
         color: white;
         transform: none;
     }
     50%{
-        color: tomato;
+        color: var(--green);
         transform: scale(3);
     }
     100%{

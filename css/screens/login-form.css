@@ -17,14 +17,15 @@
     transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder{
-    color: rgba(0,0,0,0.4);
+    color: black;
+    opacity: 0.7;
 }
 
 #login-form input:focus{
-    border-color: var(--yellow);
+    border-color: var(--green);
 }
 #login-form input[type="submit"]{
-    background-color: var(--yellow);
+    background-color:var(--green);
     cursor: pointer;
     padding: 20px 0px;
     border-radius: 5px;
@@ -34,5 +35,5 @@
     text-align: center;
     text-decoration: none;
     color: inherit;
-    font-size: 13px;
+    font-size: 15px;
 }
